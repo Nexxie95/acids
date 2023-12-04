@@ -1,23 +1,27 @@
 ul {
     list-style-type: none;
-    margin: none;
+    margin: 0%;
     padding: 2%;
     overflow: hidden;
     background-color: #0745a8;
     position: fixed;
-    top: 0%;
-    width: 1dvw;
+    top: 0;
+    width: 100%;
+    left: 0%;
+    font-size: 120%;
+    
 }
 
 
 li {
     display: inline;
     float: left;
+    border-right: 1px solid #ffffff;
 }
   
 li a {
     display: block;
     padding: 8px;
     background-color: #0745a8;
-    color: #ffffff;
+    color:#ffffff;
   }
