@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: 2%;
+    overflow: hidden;
+    background-color: #0745a8;
+    position: fixed;
+    top: 0%;
+    width: 1dvw;
+}
+
+
+li {
+    display: inline;
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #0745a8;
+    color: #ffffff;
+  }
