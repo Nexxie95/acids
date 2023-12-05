@@ -1,14 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 140%;
+}
+
 ul {
     list-style-type: none;
     margin: 0%;
-    
+    padding-left: 0%;
     overflow: hidden;
     background-color: #2a2e36;
     position: fixed;
     top: 0;
     width: 100%;
     left: 0%;
-    
+    float: left;
 }
 
 
@@ -17,6 +25,7 @@ li {
     border-right: 2px solid #27252a ;
     font-size: 200%;
     padding: 1%;
+
 }
   
 li a {
@@ -30,4 +39,9 @@ li a {
 
 li a:hover {
     color: #808080;
+}
+
+.section{
+    height: 100vh;
+    padding-top: 4%;
 }
