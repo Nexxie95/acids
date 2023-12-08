@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+#body {
+    background-color: #2a2e36;
+}
+
 p {
     font-size: 140%;
 }
@@ -11,7 +15,7 @@ ul {
     margin: 0%;
     padding-left: 0%;
     overflow: hidden;
-    background-color: #2a2e36;
+    background-color: #0745a8;
     position: fixed;
     top: 0;
     width: 100%;
@@ -22,7 +26,7 @@ ul {
 
 li {
     float: inline-start;
-    border-right: 2px solid #27252a ;
+    border-right: 2px solid #1d3986 ;
     font-size: 200%;
     padding: 1%;
 
@@ -30,9 +34,8 @@ li {
   
 li a {
     display: block;
-    padding-left:  1dvw;
-    padding-right: 1dvw;
-    background-color: #2a2e36;
+    padding-left:  1vw;
+    padding-right: 1vw;
     color:#ffffff;
     text-decoration: none;
 }
@@ -44,4 +47,30 @@ li a:hover {
 .section{
     height: 100vh;
     padding-top: 4%;
+}
+
+.text {
+   width: 65vw;
+}
+
+.image {
+    z-index: -1;
+}
+
+#homeImg {
+    position: relative;
+    left: 70vw;
+    bottom: 60dvh;
+}
+
+#HClImg {
+    position: relative;
+    left: 70vw;
+    bottom: 7dvh;
+}
+
+#HFImg {
+    position: relative;
+    left: 70vw;
+    bottom: 7dvh;
 }
